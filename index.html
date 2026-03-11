@@ -1,11 +1,75 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SM Technology Task</title>
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="oswald-font">
+    <!-- Navbar & Banner Section -->
+    <section  class="bg-gradient-to-b from-white to-[#FFA5001A] min-h-screen">
+      <!-- Navbar -->
+      <header class="max-w-6xl mx-auto my-7 flex justify-between items-center">
+        <div>
+          <img src="./assets/Logo.png" alt="" />
+        </div>
+        <div class="flex gap-12 items-center">
+          <ul class="flex gap-8">
+            <li class="text-[#FFA500] font-medium">Services</li>
+            <li class="text-[#4F4D4D]">About</li>
+            <li class="text-[#4F4D4D]">Contact</li>
+          </ul>
+          <button
+            class="bg-[#FFA500] text-white text-sm font-medium px-5 py-3 rounded-full shadow-[4px_6px_0px_black]"
+          >
+            Book a Free Consultation
+          </button>
+        </div>
+      </header>
+
+      <!-- Hero/Banner Section -->
+      <section class="flex justify-center items-center mx-11">
+        <!-- left div -->
+        <div class="mt-20">
+            <img src="./assets/total-income.png" alt="">
+        </div>
+
+        <!-- middle div -->
+        <div>
+          <div class="w-[820px] flex justify-center items-center gap-2">
+            <img src="./assets/img.png" alt="" />
+            <h2 class="text-[#4F4D4D]">
+              Your Full-Service
+              <span class="text-[#FFA500]">Amazon Partner</span>
+            </h2>
+          </div>
+
+          <h1 class="font-semibold text-7xl text-center mt-4 mb-8">
+            Turn Your Amazon Struggles<br>
+            into Success—Save Time, <br>
+            <span class="text-[#FFA500]">Maximize Profits!</span>
+          </h1>
+
+          <div class="flex justify-center items-center">
+            <button
+            class="bg-[#FFA500] text-white text-sm font-medium px-5 py-3 rounded-full shadow-[4px_6px_0px_black]"
+          >
+            Book a Free Consultation
+          </button>
+          </div>
+        </div>
+
+        <!-- right div -->
+        <div class="mt-5">
+            <img src="./assets/review.png" alt="">
+        </div>
+      </section>
+    </section>
+  </body>
 </html>
