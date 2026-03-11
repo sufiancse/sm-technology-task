@@ -13,15 +13,17 @@
   </head>
 
   <body class="oswald-font">
+    
     <!-- Navbar & Banner Section -->
     <section class="bg-gradient-to-b from-white to-[#FFA50060]">
+
       <!-- Navbar -->
       <header class="max-w-6xl mx-auto my-7 flex justify-between items-center">
         <div>
           <img src="./assets/Logo.png" alt="" />
         </div>
-        <div class="flex gap-12 items-center">
-          <ul class="flex gap-8 cursor-pointer">
+        <div class="flex gap-6 md:gap-12 items-center">
+          <ul class="flex gap-4 md:gap-8 cursor-pointer">
             <li class="text-[#FFA500] font-medium">Services</li>
             <li class="text-[#4F4D4D]">About</li>
             <li class="text-[#4F4D4D]">Contact</li>
@@ -34,10 +36,10 @@
         </div>
       </header>
 
-      <!-- Hero/Banner Section -->
+      <!-- Banner Section -->
       <section class="flex justify-center items-center mx-11 pb-48 pt-14">
         <!-- left div -->
-        <div class="mt-20">
+        <div class="mt-20 hidden md:block">
           <img src="./assets/total-income.png" alt="" />
         </div>
 
@@ -51,7 +53,7 @@
             </h2>
           </div>
 
-          <h1 class="font-semibold text-7xl text-center mt-4 mb-8">
+          <h1 class="font-semibold text-4xl md:text-5xl lg:text-7xl text-center mt-4 mb-8">
             Turn Your Amazon Struggles<br />
             into Success—Save Time, <br />
             <span class="text-[#FFA500]">Maximize Profits!</span>
@@ -67,19 +69,19 @@
         </div>
 
         <!-- right div -->
-        <div class="mt-5">
+        <div class="mt-5 hidden md:block">
           <img src="./assets/review.png" alt="" />
         </div>
       </section>
     </section>
 
     <!-- Marker Statistics section -->
-    <section class="my-[60px]">
-      <h1 class="text-2xl font-semibold text-center mb-8">
+    <section class="my-10 md:my-[60px] px-4">
+      <h1 class="text-xl md:text-2xl font-semibold text-center mb-6 md:mb-8">
         Amazon Market Statistics Worldwide 2024
       </h1>
 
-      <div class="flex gap-6 items-center justify-center">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 max-w-7xl mx-auto">
         <div
           class="border border-[#ECECEC] px-6 pt-8 pb-12 rounded-2xl text-center"
         >
@@ -116,15 +118,15 @@
         <h1>Our <span class="text-[#FFA500]">Story</span></h1>
       </div>
 
-      <div class="w-[760px] text-center mx-auto space-y-4 mb-10">
-        <h1 class="text-[40px] font-semibold text-[#151515]">
+      <div class="max-w-[760px] text-center mx-auto space-y-4 mb-10">
+        <h1 class="text-2xl sm:text-3xl md:text-[40px] font-semibold text-[#151515] leading-snug">
           Struggling With Amazon Sales? Let’s Scale Your Business—<span
             class="text-[#FFA500]"
             >Faster, Smarter,</span
           >
           & Stress-Free!
         </h1>
-        <p class="text-lg text-[#4F4D4D] w-[580px] mx-auto">
+        <p class="text-base md:text-lg text-[#4F4D4D] w-full max-w-[580px] mx-auto">
           Amazon is complex, but success doesn’t have to be. At
           <span class="text-[#FFA500]">FINTRIXX,</span> we help sellers increase
           sales, optimize ads, rank higher, and expand into new markets —without
@@ -133,71 +135,71 @@
         </p>
       </div>
 
-      <div class="flex justify-center items-center mb-24">
+      <div class="flex justify-center items-center mb-16 md:mb-24">
         <button
           class="bg-[#FFA500] text-white text-sm font-medium px-5 py-3 rounded-full shadow-[4px_3px_0px_black] cursor-pointer"
         >
-          Book a Free Consultation
+          Book a Free Strategy Call
         </button>
       </div>
     </section>
 
     <!-- why choose us section -->
-    <section
-      class="bg-[#151515] py-[120px] px-[100px] flex justify-between items-center"
-    >
-      <div>
-        <div class="flex gap-2">
-          <img src="./assets/img.png" alt="" />
-          <h1 class="text-white">
-            Why <span class="text-[#FFA500]">Choose Us</span>
-          </h1>
-        </div>
+    <section class="bg-[#151515] py-16 md:py-[120px] px-6 sm:px-10 md:px-16 lg:px-[100px] flex flex-col lg:flex-row justify-between items-center gap-12 lg:gap-8">
+  
 
-        <h1 class="text-[56px] font-semibold text-white mt-3 mb-4">
-          Why Choose <span class="text-[#FFA500]">FINTRIXX?</span>
-        </h1>
-        <p class="text-lg text-left text-white w-[560px]">
-          Amazon is tough—we make it easy. At FINTRIXX, we help sellers rank
-          higher, scale faster, & sell smarter. We analyze trends, optimize ads,
-          manage inventory, & protect your account so you can focus on your
-          business. <br />🚀 No more guesswork. No more wasted money. Just real
-          results.
-        </p>
+  <div class="w-full lg:w-auto text-center lg:text-left">
+    <div class="flex gap-2 justify-center lg:justify-start">
+      <img src="./assets/img.png" alt="" class="w-6 h-6 md:w-auto md:h-auto" />
+      <h1 class="text-white text-base md:text-lg">
+        Why <span class="text-[#FFA500]">Choose Us</span>
+      </h1>
+    </div>
 
-        <div class="mt-10">
-          <button
-            class="bg-[#FFA500] text-white text-sm font-medium px-5 py-3 rounded-full shadow-[4px_3px_0px_white] cursor-pointer"
-          >
-            Book a Free Consultation
-          </button>
-        </div>
-      </div>
+    <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-[56px] font-semibold text-white mt-3 mb-4 leading-tight">
+      Why Choose <span class="text-[#FFA500]">FINTRIXX?</span>
+    </h1>
 
-      <div>
-        <img src="./assets/why-choose-us.png" alt="" />
-      </div>
+    <p class="text-base md:text-lg text-white w-full max-w-[560px] mx-auto lg:mx-0">
+      Amazon is tough—we make it easy. At FINTRIXX, we help sellers rank
+      higher, scale faster, & sell smarter. We analyze trends, optimize ads,
+      manage inventory, & protect your account so you can focus on your
+      business. <br class="hidden sm:block" />🚀 No more guesswork. No more wasted money. Just real results.
+    </p>
+
+    <div class="mt-10 flex justify-center lg:justify-start">
+      <button class="bg-[#FFA500] text-white text-sm font-medium px-5 py-3 rounded-full shadow-[4px_3px_0px_white] cursor-pointer">
+        Book a Free Consultation
+      </button>
+    </div>
+  </div>
+
+
+  <div class="w-full lg:w-auto flex justify-center shrink-0">
+    <img src="./assets/why-choose-us.png" alt="" class="w-full max-w-sm md:max-w-md lg:max-w-full" />
+  </div>
+
     </section>
 
     <!-- our services section -->
     <section>
       <!-- title -->
-      <div class="text-center mt-[100px] mb-[64px]">
+      <div class="text-center mt-16 md:mt-[100px] mb-10 md:mb-[64px] px-4">
         <div class="flex justify-center items-center gap-2">
-          <img src="./assets/img.png" alt="" />
+          <img src="./assets/img.png" alt="" class="w-6 h-6 md:w-auto md:h-auto"/>
           <h2>Our <span class="text-[#FFA500]">Services</span></h2>
         </div>
 
-        <h1 class="text-[56px] font-semibold text-#151515] mt-3 mb-4">
+        <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-[56px] font-semibold text-[#151515] mt-3 mb-4 leading-tight">
           Scale Smarter, <span class="text-[#FFA500]">Sell Faster</span>
         </h1>
-        <p class="text-lg text-#151515]">
+        <p class="text-base md:text-lg text-[#151515]">
           We handle everything Amazon so you can focus on growing.
         </p>
       </div>
 
-      <section class="flex items-center justify-center mb-[100px]">
-        <div class="grid grid-cols-2 gap-6 w-[1200px] mx-auto">
+      <section class="flex items-center justify-center mb-16 md:mb-[100px] px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 w-full max-w-[1200px] mx-auto">
           <!-- Amazon Growth & Advertising -->
           <div
             class="bg-white rounded-2xl shadow-sm border border-gray-100 p-7 flex flex-col gap-5"
@@ -427,13 +429,14 @@
 
     <!-- Our Approach section -->
     <section class="bg-[#151515]">
-      <div class="flex justify-between gap-[80px] py-[100px] px-[120px]">
-        <div class="flex gap-6">
-          <span class="mb-14">
-            <img src="./assets/image-left.png" alt="" />
+      <div class="flex flex-col lg:flex-row justify-between gap-8 lg:gap-[80px] py-12 md:py-16 lg:py-[100px] px-6 sm:px-10 md:px-16 lg:px-[120px]">
+
+        <div class="flex gap-4 md:gap-6 justify-center lg:justify-start">
+          <span class="mb-0 lg:mb-14">
+            <img src="./assets/image-left.png" alt="" class="w-28 sm:w-36 md:w-44 lg:w-auto"/>
           </span>
-          <span class="pt-[100px]">
-            <img src="./assets/image-right.png" alt="" />
+          <span class="pt-10 md:pt-16 lg:pt-[100px]">
+            <img src="./assets/image-right.png" alt="" class="w-28 sm:w-36 md:w-44 lg:w-auto"/>
           </span>
         </div>
 
@@ -442,17 +445,17 @@
             Our <span class="text-[#FFA500]">Approach</span>
           </h1>
           <h2
-            class="text-white font-semibold text-2xl border-l-2 border-[#ECECEC33] pl-5"
+            class="text-white font-semibold text-xl md:text-2xl border-l-2 border-[#ECECEC33] pl-5"
           >
             🎯 Mission
           </h2>
           <div class="border-b border-[#ECECEC33] pt-5"></div>
 
           <div class="border-l-2 border-[#FFA500] pl-5">
-            <h2 class="text-white font-semibold text-2xl mt-5 py-4">
+            <h2 class="text-white font-semibold text-xl md:text-2xl mt-5 py-4">
               🌍 Vision
             </h2>
-            <p class="text-lg text-white">
+            <p class="text-base md:text-lg text-white">
               Founded in 1983, SecureWealth was created to address the
               challenges of traditional banking—long queues, complicated
               processes, and limited access. We started with a vision to make
@@ -476,29 +479,29 @@
     <!-- Growth Business Section -->
     <section>
       <!-- title -->
-      <div class="text-center mt-[100px] mb-[64px]">
+      <div class="text-center mt-[60px] md:mt-[100px] mb-10 md:mb-[64px] px-4">
         <div class="flex justify-center items-center gap-2">
           <img src="./assets/img.png" alt="" />
           <h2>Growth <span class="text-[#FFA500]">Business</span></h2>
         </div>
 
         <h1
-          class="text-[56px] font-semibold text-[#151515] mt-3 mb-4 leading-tight"
+          class="text-[32px] sm:text-[44px] md:text-[56px] font-semibold text-[#151515] mt-3 mb-4 leading-tight"
         >
           The Harsh Reality of <br />
           Selling on
           <span class="text-[#FFA500]">Amazon</span>
         </h1>
-        <p class="text-lg text-[#151515]">
+        <p class="text-base md:text-lg text-[#151515]">
           Selling on Amazon is tough. Do these struggles sound familiar? Without
-          the <br />
+          the <br class="hidden md:block"/>
           right strategy, you’re losing money, time, and opportunities.
         </p>
       </div>
 
-      <section class="flex items-center justify-center">
+      <section class="flex items-center justify-center px-4 sm:px-6 md:px-10">
       
-        <div class="grid grid-cols-3 gap-6 w-[1200px] mx-auto">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-[1200px] mx-auto">
 
           <div
             class=" rounded-2xl shadow-sm border border-gray-100 p-7 flex flex-col gap-5"
@@ -642,7 +645,7 @@
     <!-- How We Help You Section -->
     <section class="bg-[#151515]">
       <!-- title -->
-      <div class="text-center pt-[100px] mb-[64px]">
+      <div class="text-center pt-[60px] md:pt-[100px] mb-10 md:mb-[64px] px-4">
 
         <div class="flex justify-center items-center gap-2">
           <img src="./assets/img.png" alt="" />
@@ -650,19 +653,19 @@
         </div>
 
         <h1
-          class="text-[56px] font-semibold text-white mt-3 mb-4 leading-tight"
+          class="text-[32px] sm:text-[44px] md:text-[56px] font-semibold text-white mt-3 mb-4 leading-tight"
         >
           How We Help You <br> Win on
           <span class="text-[#FFA500]">Amazon</span>
         </h1>
-        <p class="text-lg text-white leading-tight">
-          At FINTRIXX, we don’t guess—we use data-driven <br>strategies to scale your business.
+        <p class="text-base md:text-lg text-white leading-tight">
+          At FINTRIXX, we don’t guess—we use data-driven <br class="hidden md:block">strategies to scale your business.
         </p>
       </div>
 
-      <section class="flex items-center justify-center">
+      <section class="flex items-center justify-center px-4 sm:px-6 md:px-10">
       
-        <div class="grid grid-cols-3 gap-6 w-[1200px] mx-auto">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-[1200px] mx-auto">
 
           <div
             class="bg-[#232323] rounded-2xl shadow-sm  p-7 flex flex-col gap-5"
@@ -808,29 +811,29 @@
     <!-- Contact Us Section -->
      <section>
       <!-- title -->
-      <div class="text-center mt-[100px] mb-[64px]">
+      <div class="text-center mt-[60px] md:mt-[100px] mb-10 md:mb-[64px] px-4">
         <div class="flex justify-center items-center gap-2">
           <img src="./assets/img.png" alt="" />
           <h2  class="text-[#FFA500]">Contact <span class="text-[#151515]">Us</span></h2>
         </div>
 
         <h1
-          class="text-[56px] font-semibold text-[#151515] mt-3 mb-4 leading-tight"
+          class="text-[32px] sm:text-[44px] md:text-[56px] font-semibold text-[#151515] mt-3 mb-4 leading-tight"
         >
           Let’s Scale Your 
           <span class="text-[#FFA500]">Business!</span>
         </h1>
-        <p class="text-lg text-[#151515]">
+        <p class="text-base md:text-lg text-[#151515]">
           FINTRIXX – Your Amazon Growth Partner
         </p>
       </div>
 
-      <section class="flex border border-gray-200 rounded-xl shadow-sm overflow-hidden max-w-5xl mx-auto">
+      <section class="flex flex-col md:flex-row border border-gray-200 rounded-xl shadow-sm overflow-hidden max-w-5xl mx-4 md:mx-auto">
 
-        <div class="flex-1 p-8 border-r border-gray-200 flex flex-col justify-between">
+        <div class="flex-1 p-6 md:p-8 border-b md:border-b-0 md:border-r border-gray-200 flex flex-col justify-between">
           <div>
             <p class="text-gray-500 text-sm font-semibold mb-1">Naim</p>
-            <h2 class="text-gray-900 font-bold text-2xl leading-snug mb-6">
+            <h2 class="text-gray-900 font-bold text-xl md:text-2xl leading-snug mb-6">
               Book Your Strategy <br> Session: Accelerate Your Growth!
             </h2>
             <div class="space-y-3">
@@ -945,7 +948,7 @@
 
       </section>
 
-      <div class="flex items-center justify-center gap-5 pt-8 pb-[100px]">
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-5 pt-8 pb-[60px] md:pb-[100px] px-4 text-center sm:text-left">
   
         <div class="flex items-center gap-3 text-gray-800">
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
@@ -966,10 +969,9 @@
 
 
     <!-- Footer Section -->
-    <footer class="bg-[#151515] text-white px-16 pt-16 pb-8">
+    <footer class="bg-[#151515] text-white px-6 sm:px-10 md:px-16 pt-16 pb-8">
   
-      <div class="flex justify-between items-start mb-16">
-        
+      <div class="flex flex-col md:flex-row justify-between items-start gap-10 md:gap-0 mb-16">
         
         <div class="max-w-sm">
           
@@ -982,7 +984,7 @@
         </div>
 
         
-        <div class="flex gap-24">
+        <div class="flex flex-col sm:flex-row gap-10 sm:gap-24">
           
           <div>
             <h4 class="font-semibold text-xl mb-5">Home</h4>
@@ -1014,9 +1016,9 @@
       <hr class="border-gray-700 mb-6" />
 
       
-      <div class="flex justify-between items-center text-gray-300">
+      <div class="flex flex-col sm:flex-row justify-between items-center gap-4 sm:gap-0 text-gray-300 text-center sm:text-left">
         <p>© 2025 Copyright Amazon</p>
-        <div class="flex gap-10">
+        <div class="flex gap-6 sm:gap-10">
           <a href="#" class="hover:text-white transition-colors">Privacy Policy</a>
           <a href="#" class="hover:text-white transition-colors">Terms & Conditions</a>
         </div>
